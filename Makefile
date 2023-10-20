@@ -10,5 +10,8 @@ downloads:
 freshdata:
 	node imf_to_csv.js
 
+greeting:
+	echo 'hello-world'	
+
 all: directories downloads freshdata
 	
